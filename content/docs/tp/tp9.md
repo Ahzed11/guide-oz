@@ -1,7 +1,8 @@
 ---
 title: "Séance 9"
 date: 2022-03-28T14:32:38+02:00
-draft: true
+draft: false
+weight: 9
 ---
 
 # Séance 9
@@ -57,3 +58,27 @@ in
    {Browse Q#NotQ}
 end
 ```
+
+## Exercice 5
+```oz
+declare
+proc {ForCollect Xs P Ys}
+    N = {NewCell 1}
+    Acc = {NewCell Ys}
+    proc{C X}
+        R2
+    in
+        @Acc=X|R2
+        {Browse @N#R2}
+        Acc := R2
+        {Browse r22#R2}
+        {Cell.assign N N+1}
+    end
+in
+    for X in Xs do
+        {P C X}
+    end
+    @Acc = nil
+end
+
+{Browse {ForCollect [0 2 4 6 8] proc {$ Collect X} {Collect X div 2} end}}
