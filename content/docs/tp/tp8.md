@@ -2,6 +2,7 @@
 title: "Séance 8"
 date: 2022-03-28T12:17:58+02:00
 draft: false
+weight: 8
 ---
 
 # Séance 7
