@@ -17,3 +17,4 @@ Essayez de faire les exercices par vous-même avant de lire les solutions.
 6. [Séance 6](tp6)
 7. [Séance 8](tp8)
 8. [Séance 9](tp9)
+9. [Séance 10](tp10)
