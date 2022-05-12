@@ -14,5 +14,5 @@ Cliquez sur le raccourci nommé `Mozart Programming Interface` ou tapez `Mozart`
 
 ## Problèmes connus
 ### L'application que vous tentez d'installer n'est pas vérifiée...
-![Erreur](images/windows_store.png)
+![Erreur](/guide-oz/images/windows_store.png)
 1. Cliquez sur `Installer quand même`
